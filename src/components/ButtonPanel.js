@@ -1,43 +1,39 @@
-export class ButtonPanel extends React.Component {
-  constructor(props) {
-    super(props)
-  }
+import React from 'react';
 
-  render() {
-    return (
-      <div>
-        <div className='group_1'>
-          <button>AC</button>
-          <button>+/-</button>
-          <button>%</button>
-          <button>/</button>
-        </div>
-        <div className='group_2'>
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button>X</button>
-        </div>
-        <div className='group_3'>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>-</button>
-        </div>
-        <div className='group_4'>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>+</button>
-        </div>
-        <div className='group_5'>
-          <button>0</button>
-          <button>.</button>
-          <button>=</button>
-        </div>
+const ButtonPanel = function () {
+  return (
+    <div>
+      <div className="group_1">
+        <button type="button">AC</button>
+        <button type="button">+/-</button>
+        <button type="button">%</button>
+        <button type="button">/</button>
       </div>
-    )
-  }
-}
+      <div className="group_2">
+        <button type="button">7</button>
+        <button type="button">8</button>
+        <button type="button">9</button>
+        <button type="button">X</button>
+      </div>
+      <div className="group_3">
+        <button type="button">4</button>
+        <button type="button">5</button>
+        <button type="button">6</button>
+        <button type="button">-</button>
+      </div>
+      <div className="group_4">
+        <button type="button">1</button>
+        <button type="button">2</button>
+        <button type="button">3</button>
+        <button type="button">+</button>
+      </div>
+      <div className="group_5">
+        <button type="button">0</button>
+        <button type="button">.</button>
+        <button type="button">=</button>
+      </div>
+    </div>
+  );
+};
 
-export default ButtonPanel
+export default ButtonPanel;
