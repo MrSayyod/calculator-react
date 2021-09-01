@@ -12,6 +12,12 @@ export class ButtonPanel extends React.Component {
           <button>%</button>
           <button>/</button>
         </div>
+        <div className='group_2'>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>X</button>
+        </div>
       </div>
     )
   }
