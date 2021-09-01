@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-class Display extends React.Component {
+export class Display extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -21,3 +21,5 @@ Display.propTypes = {
 Display.defaultProps = {
   result: '0'
 }
+
+export default Display
