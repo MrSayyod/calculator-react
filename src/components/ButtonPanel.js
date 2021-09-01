@@ -30,17 +30,14 @@ export class ButtonPanel extends React.Component {
           <button>3</button>
           <button>+</button>
         </div>
+        <div className='group_5'>
+          <button>0</button>
+          <button>.</button>
+          <button>=</button>
+        </div>
       </div>
     )
   }
-}
-
-Display.propTypes = {
-  result: PropTypes.string.isRequired
-}
-
-Display.defaultProps = {
-  result: '0'
 }
 
 export default ButtonPanel
