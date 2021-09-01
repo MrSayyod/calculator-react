@@ -1,7 +1,7 @@
 import Display from "./Display"
 import ButtonPanel from "./ButtonPanel"
 
-function App() {
+const App = function() {
   return (
     <React.Fragment>
       <Display />
