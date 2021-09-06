@@ -36,7 +36,7 @@ code {
 
 .btnContainer {
   display: grid;
-  grid-template-columns: 4 1fr;
+  grid-template-rows: repeat(4,1fr);
 }
 
 button {
@@ -47,3 +47,11 @@ button {
   text-align: center;
 }
 
+.group_5 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.button_zero {
+  width: 100%;
+}
