@@ -25,3 +25,12 @@ code {
     'Courier New',
     monospace;
 }
+
+button {
+  padding: 1rem;
+  font-size: large;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+}
+
