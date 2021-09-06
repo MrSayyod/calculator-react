@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ButtonPanel = () => (
-  <div>
+  <div className='btnContainer'>
     <div className="group_1">
       <button type="button">AC</button>
       <button type="button">+/-</button>
