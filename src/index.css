@@ -26,6 +26,19 @@ code {
     monospace;
 }
 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnContainer {
+  display: grid;
+  grid-template-columns: 4 1fr;
+}
+
 button {
   padding: 1rem;
   font-size: large;
