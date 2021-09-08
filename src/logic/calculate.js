@@ -43,4 +43,14 @@ const calculate = (data, buttonName) => {
     next = ''
     operation = ''
   }
+
+  if (operators.includes(buttonName)) {
+    if (total && !next) {
+      operation = buttonName
+    } else if (total && operation && next) {
+      total = operate(total, next, operation)
+    }
+  }
+
+  return total;
 }
