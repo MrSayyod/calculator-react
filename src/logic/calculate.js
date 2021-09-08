@@ -54,3 +54,5 @@ const calculate = (data, buttonName) => {
 
   return total;
 }
+
+export default calculate
