@@ -37,5 +37,10 @@ const calculate = (data, buttonName) => {
       next += '.'
     }
   }
-  
+
+  if (buttonName === 'AC') {
+    total = 0
+    next = ''
+    operation = ''
+  }
 }
