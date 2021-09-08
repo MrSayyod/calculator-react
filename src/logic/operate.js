@@ -11,6 +11,9 @@ const operate = (numberOne, numberTwo, operation) => {
     case '-':
       result = one.minus(two)
       break;
+    case '/':
+      result = one.div(two)
+      break;
   
     default:
       break;
