@@ -12,6 +12,9 @@ const operate = (numberOne, numberTwo, operation) => {
       result = one.minus(two)
       break;
     case '/':
+      if (numberTwo === 0) {
+        result = "Can't be divided zero"
+      }
       result = one.div(two)
       break;
     case '*':
