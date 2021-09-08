@@ -17,8 +17,12 @@ const operate = (numberOne, numberTwo, operation) => {
     case '*':
       result = one.times(two)
       break;
+    case '%':
+      result = one.mod(two)
+      break;
   
     default:
+      result = Big(0)
       break;
   }
 }
