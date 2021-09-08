@@ -8,6 +8,9 @@ const operate = (numberOne, numberTwo, operation) => {
     case '+':
       result = one.plus(two)
       break;
+    case '-':
+      result = one.minus(two)
+      break;
   
     default:
       break;
