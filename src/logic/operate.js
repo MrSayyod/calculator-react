@@ -14,6 +14,9 @@ const operate = (numberOne, numberTwo, operation) => {
     case '/':
       result = one.div(two)
       break;
+    case '*':
+      result = one.times(two)
+      break;
   
     default:
       break;
