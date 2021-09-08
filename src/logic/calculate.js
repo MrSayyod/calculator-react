@@ -28,5 +28,14 @@ const calculate = (data, buttonName) => {
     }
   }
 
+  if (buttonName === '.') {
+    if(!total && !next) {
+      total = '0.'
+    } else if (total && !next && total.indexOf('.') === -1) {
+      total += '.'
+    } else if (next && next.indexOf('.')) {
+      next += '.'
+    }
+  }
   
 }
