@@ -23,9 +23,11 @@ const operate = (numberOne, numberTwo, operation) => {
     case '%':
       result = one.mod(two)
       break;
-  
     default:
       result = Big(0)
       break;
   }
+  return result
 }
+
+export default operate
