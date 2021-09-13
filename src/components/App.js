@@ -3,13 +3,6 @@ import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
 
-// const App = () => (
-//   <>
-//     <Display />
-//     <ButtonPanel />
-//   </>
-// );
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -28,10 +21,10 @@ class App extends Component {
   }
 
   render() {
-    const { total, next } = this.state;
+    const { total, next, operation } = this.state;
     return (
       <div className="displayResult">
-        <Display result={String(total) || String(next)} />
+        <Display result={String(total) || String(next)} operation={operation} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
