@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 const Button = ({ buttonName, clickHandler }) => {
   const handleClick = (buttonName) => {
@@ -12,6 +12,7 @@ const Button = ({ buttonName, clickHandler }) => {
 };
 Button.propTypes = {
   buttonName: PropTypes.string.isRequired,
+  clickHandler: PropTypes.func.isRequired,
 };
 
 export default Button;
