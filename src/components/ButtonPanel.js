@@ -9,10 +9,10 @@ const ButtonPanel = ({ clickHandler }) => {
   return (
     <div className="btnContainer">
       <div className="group_1">
-        <Button buttonName='AC' clickHandler={handleClick} />
-        <Button buttonName='+/-' clickHandler={handleClick} />
-        <Button buttonName='%' clickHandler={handleClick} />
-        <Button buttonName='/' clickHandler={handleClick} />
+        <Button buttonName="AC" clickHandler={handleClick} />
+        <Button buttonName="+/-" clickHandler={handleClick} />
+        <Button buttonName="%" clickHandler={handleClick} />
+        <Button buttonName="/" clickHandler={handleClick} />
         {/* <button type="button" clickHandler={handleClick}>
           AC
         </button>
@@ -27,10 +27,10 @@ const ButtonPanel = ({ clickHandler }) => {
         </button> */}
       </div>
       <div className="group_2">
-        <Button buttonName='7' clickHandler={handleClick} />
-        <Button buttonName='8' clickHandler={handleClick} />
-        <Button buttonName='9' clickHandler={handleClick} />
-        <Button buttonName='*' clickHandler={handleClick} />
+        <Button buttonName="7" clickHandler={handleClick} />
+        <Button buttonName="8" clickHandler={handleClick} />
+        <Button buttonName="9" clickHandler={handleClick} />
+        <Button buttonName="*" clickHandler={handleClick} />
         {/* <button type="button" clickHandler={handleClick}>
           7
         </button>
@@ -45,10 +45,10 @@ const ButtonPanel = ({ clickHandler }) => {
         </button> */}
       </div>
       <div className="group_3">
-        <Button buttonName='4' clickHandler={handleClick} />
-        <Button buttonName='5' clickHandler={handleClick} />
-        <Button buttonName='6' clickHandler={handleClick} />
-        <Button buttonName='-' clickHandler={handleClick} />
+        <Button buttonName="4" clickHandler={handleClick} />
+        <Button buttonName="5" clickHandler={handleClick} />
+        <Button buttonName="6" clickHandler={handleClick} />
+        <Button buttonName="-" clickHandler={handleClick} />
         {/* <button type="button" clickHandler={handleClick}>
           4
         </button>
@@ -63,10 +63,10 @@ const ButtonPanel = ({ clickHandler }) => {
         </button> */}
       </div>
       <div className="group_4">
-        <Button buttonName='1' clickHandler={handleClick} />
-        <Button buttonName='2' clickHandler={handleClick} />
-        <Button buttonName='3' clickHandler={handleClick} />
-        <Button buttonName='+' clickHandler={handleClick} />
+        <Button buttonName="1" clickHandler={handleClick} />
+        <Button buttonName="2" clickHandler={handleClick} />
+        <Button buttonName="3" clickHandler={handleClick} />
+        <Button buttonName="+" clickHandler={handleClick} />
         {/* <button type="button" clickHandler={handleClick}>
           1
         </button>
@@ -81,9 +81,9 @@ const ButtonPanel = ({ clickHandler }) => {
         </button> */}
       </div>
       <div className="group_5">
-        <Button buttonName='0' className="button_zero" clickHandler={handleClick} />
-        <Button buttonName='.' clickHandler={handleClick} />
-        <Button buttonName='=' clickHandler={handleClick} />
+        <Button buttonName="0" className="button_zero" clickHandler={handleClick} />
+        <Button buttonName="." clickHandler={handleClick} />
+        <Button buttonName="=" clickHandler={handleClick} />
         {/* <button
           type="button"
           className="button_zero"
