@@ -7,33 +7,33 @@ const ButtonPanel = ({clickHandler}) => {
   return(
   <div className="btnContainer">
     <div className="group_1">
-      <button type="button">AC</button>
-      <button type="button">+/-</button>
-      <button type="button">%</button>
-      <button type="button">/</button>
+      <button type="button" clickHandler = {handleClick}>AC</button>
+      <button type="button" clickHandler = {handleClick}>+/-</button>
+      <button type="button" clickHandler = {handleClick}>%</button>
+      <button type="button" clickHandler = {handleClick}>/</button>
     </div>
     <div className="group_2">
-      <button type="button">7</button>
-      <button type="button">8</button>
-      <button type="button">9</button>
-      <button type="button">*</button>
+      <button type="button" clickHandler = {handleClick}>7</button>
+      <button type="button" clickHandler = {handleClick}>8</button>
+      <button type="button" clickHandler = {handleClick}>9</button>
+      <button type="button" clickHandler = {handleClick}>*</button>
     </div>
     <div className="group_3">
-      <button type="button">4</button>
-      <button type="button">5</button>
-      <button type="button">6</button>
-      <button type="button">-</button>
+      <button type="button" clickHandler = {handleClick}>4</button>
+      <button type="button" clickHandler = {handleClick}>5</button>
+      <button type="button" clickHandler = {handleClick}>6</button>
+      <button type="button" clickHandler = {handleClick}>-</button>
     </div>
     <div className="group_4">
-      <button type="button">1</button>
-      <button type="button">2</button>
-      <button type="button">3</button>
-      <button type="button">+</button>
+      <button type="button" clickHandler = {handleClick}>1</button>
+      <button type="button" clickHandler = {handleClick}>2</button>
+      <button type="button" clickHandler = {handleClick}>3</button>
+      <button type="button" clickHandler = {handleClick}>+</button>
     </div>
     <div className="group_5">
-      <button type="button" className="button_zero">0</button>
-      <button type="button">.</button>
-      <button type="button">=</button>
+      <button type="button" className="button_zero" clickHandler = {handleClick}>0</button>
+      <button type="button" clickHandler = {handleClick}>.</button>
+      <button type="button" clickHandler = {handleClick}>=</button>
     </div>
   </div>
 );
