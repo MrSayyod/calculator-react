@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const Button = ({ buttonName, clickHandler }) => {
-  const handleClick = (buttonName) => {
+  const handleClick = () => {
     clickHandler(buttonName);
   };
   return (
