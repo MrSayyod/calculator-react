@@ -27,7 +27,15 @@ class App extends Component {
     this.setState(newResult)
   }
 
-  
+  render() {
+    const {total, next, operation} = this.state
+    return (
+      <div className="displayResult">
+        <Display result={{total}||{next}} />
+        <ButtonPanel clickHandler = {this.handleClick} />
+      </div>
+    )
+  }
 }
 
 export default App;
