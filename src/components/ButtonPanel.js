@@ -1,6 +1,10 @@
 import React from 'react';
 
-const ButtonPanel = () => (
+const ButtonPanel = ({clickHandler}) => {
+  const handleClick = (buttonName) => {
+    clickHandler(buttonName)
+  }
+  return(
   <div className="btnContainer">
     <div className="group_1">
       <button type="button">AC</button>
@@ -33,5 +37,6 @@ const ButtonPanel = () => (
     </div>
   </div>
 );
+  }
 
 export default ButtonPanel;
