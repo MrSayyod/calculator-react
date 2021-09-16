@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Button from './Button';
+import React from "react";
+import PropTypes from "prop-types";
+import Button from "./Button";
 
 const ButtonPanel = (props) => {
   const handleClick = (buttonName) => {
@@ -33,7 +33,11 @@ const ButtonPanel = (props) => {
         <Button buttonName="+" clickHandler={handleClick} />
       </div>
       <div className="group_5">
-        <Button buttonName="0" className="button_zero" clickHandler={handleClick} />
+        <Button
+          buttonName="0"
+          className="button_zero"
+          clickHandler={handleClick}
+        />
         <Button buttonName="." clickHandler={handleClick} />
         <Button buttonName="=" clickHandler={handleClick} />
       </div>
