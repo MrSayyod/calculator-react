@@ -1,7 +1,11 @@
 import PropTypes from 'prop-types';
 
-const Button = ({ buttonName, clickHandler }) => {
-  const handleClick = () => {
+const Button = (props) => {
+  const {
+    buttonName,
+    clickHandler,
+  } = props
+  const handleClick = (buttonName) => {
     clickHandler(buttonName);
   };
   return (
