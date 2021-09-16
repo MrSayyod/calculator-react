@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
 
-const ButtonPanel = ({ clickHandler }) => {
+const ButtonPanel = (props) => {
   const handleClick = (buttonName) => {
-    clickHandler(buttonName);
+    props.clickHandler(buttonName);
   };
   return (
     <div className="btnContainer">
