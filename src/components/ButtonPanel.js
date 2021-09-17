@@ -3,9 +3,10 @@ import PropTypes from 'prop-types';
 import Button from './Button';
 
 const ButtonPanel = (props) => {
-  const handleClick = (buttonName) => {
-    props.clickHandler(buttonName);
-  };
+  // const handleClick = (buttonName) => {
+  //   props.clickHandler(buttonName);
+  // };
+  const { handleClick } = props;
   return (
     <div className="btnContainer">
       <div className="group_1">
@@ -46,7 +47,7 @@ const ButtonPanel = (props) => {
 };
 
 ButtonPanel.propTypes = {
-  clickHandler: PropTypes.func.isRequired,
+  handleClick: PropTypes.func.isRequired,
 };
 
 export default ButtonPanel;
