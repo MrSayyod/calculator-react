@@ -3,9 +3,6 @@ import PropTypes from 'prop-types';
 import Button from './Button';
 
 const ButtonPanel = (props) => {
-  // const handleClick = (buttonName) => {
-  //   props.clickHandler(buttonName);
-  // };
   const { handleClick } = props;
   return (
     <div className="btnContainer">

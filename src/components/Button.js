@@ -3,9 +3,6 @@ import Button from 'react-bootstrap/Button';
 
 const renderButton = (props) => {
   const { buttonName, clickHandler } = props;
-  // const handleClick = (buttonName) => {
-  //   clickHandler(buttonName);
-  // };
   return (
     <Button onClick={() => {
       clickHandler(buttonName);
