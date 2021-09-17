@@ -25,7 +25,7 @@ class App extends Component {
     return (
       <div className="displayResult">
         <Display total={next || total || '0'} />
-        <ButtonPanel clickHandler={this.handleClick} />
+        <ButtonPanel handleClick={this.handleClick} />
       </div>
     );
   }
