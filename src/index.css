@@ -52,6 +52,6 @@ button {
   grid-template-columns: 2fr 1fr 1fr;
 }
 
-.button_zero {
+.group_5 button:first-child {
   width: 100%;
 }

@@ -29,6 +29,7 @@ A simple product that assist you with the calculations.
 `
   git clone https://github.com/MrSayyod/calculator-react.git
 `
+Type `npm install`
 Type `npm start`
 
 ## Prerequisites:

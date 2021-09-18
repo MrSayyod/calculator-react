@@ -1,11 +1,20 @@
 import PropTypes from 'prop-types';
+import Button from 'react-bootstrap/Button';
 
-const Button = ({ buttonName }) => (
-  <button type="button">{buttonName}</button>
-);
-
-Button.propTypes = {
+const renderButton = (props) => {
+  const { buttonName, clickHandler } = props;
+  return (
+    <Button onClick={() => {
+      clickHandler(buttonName);
+    }}
+    >
+      {buttonName}
+    </Button>
+  );
+};
+renderButton.propTypes = {
   buttonName: PropTypes.string.isRequired,
+  clickHandler: PropTypes.func.isRequired,
 };
 
-export default Button;
+export default renderButton;
