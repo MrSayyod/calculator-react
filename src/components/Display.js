@@ -5,7 +5,6 @@ const Display = (props) => {
   const { total, next, operation } = props;
   return (
     <div>
-      {/* <h1>{total}</h1> */}
       { total }
       { ' ' }
       { operation }
