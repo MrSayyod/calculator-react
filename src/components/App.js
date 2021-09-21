@@ -1,8 +1,8 @@
 // import React, { Component } from 'react';
-import React, { useState } from "react";
-import Display from "./Display";
-import ButtonPanel from "./ButtonPanel";
-import calculate from "../logic/calculate";
+import React, { useState } from 'react';
+import Display from './Display';
+import ButtonPanel from './ButtonPanel';
+import calculate from '../logic/calculate';
 
 // class App extends Component {
 //   constructor(props) {
@@ -33,9 +33,9 @@ import calculate from "../logic/calculate";
 // }
 
 const App = () => {
-  const [total, setTotal] = useState("null");
-  const [next, setNext] = useState("null");
-  const [operation, setOperation] = useState("null");
+  const [total, setTotal] = useState('null');
+  const [next, setNext] = useState('null');
+  const [operation, setOperation] = useState('null');
 
   const handleClick = (buttonName) => {
     const newResult = calculate({ total, next, operation }, buttonName);
@@ -46,8 +46,8 @@ const App = () => {
 
   return (
     <div className="displayResult">
-      <Display total={next || total || "0"} />
-      <ButtonPanel handleClick={this.handleClick} />
+      <Display total={next || total || '0'} />
+      <ButtonPanel handleClick={(buttonName) => handleClick(buttonName)} />
     </div>
   );
 };
