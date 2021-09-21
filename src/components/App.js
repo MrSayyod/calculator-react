@@ -34,8 +34,17 @@ import calculate from '../logic/calculate';
 
 const App = () => {
   const [total, setTotal] = useState('null')
-  const [next, setnext] = useState('null')
-  const [operation, setoperation] = useState('null')
+  const [next, setNext] = useState('null')
+  const [operation, setOperation] = useState('null')
+
+  const handleClick = (buttonName) => {
+    const newResult = calculate({ total, next, operation }, buttonName)
+    setTotal(newResult.total)
+    setNext(newResult.next)
+    setOperation(newResult.operation)
+  }
+
+  
 }
 
 
