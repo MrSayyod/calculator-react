@@ -33,11 +33,12 @@ import calculate from '../logic/calculate';
 // }
 
 const App = () => {
-  const [total, setTotal] = useState('null');
-  const [next, setNext] = useState('null');
-  const [operation, setOperation] = useState('null');
+  const [total, setTotal] = useState('0');
+  const [next, setNext] = useState(null);
+  const [operation, setOperation] = useState(null);
 
   const handleClick = (buttonName) => {
+    // Number(total);
     const newResult = calculate({ total, next, operation }, buttonName);
     setTotal(newResult.total);
     setNext(newResult.next);
@@ -46,7 +47,8 @@ const App = () => {
 
   return (
     <div className="displayResult">
-      <Display total={next || total || '0'} />
+      {/* <Display total={total || next || '0'} /> */}
+      <Display total={total} next={next} operation={operation} />
       <ButtonPanel handleClick={(buttonName) => handleClick(buttonName)} />
     </div>
   );
