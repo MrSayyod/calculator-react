@@ -32,5 +32,11 @@ import calculate from '../logic/calculate';
 //   }
 // }
 
+const App = () => {
+  const [total, setTotal] = useState('null')
+  const [next, setnext] = useState('null')
+  const [operation, setoperation] = useState('null')
+}
+
 
 export default App;
