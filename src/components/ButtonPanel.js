@@ -13,21 +13,21 @@ const ButtonPanel = (props) => {
         <Button buttonName="/" clickHandler={handleClick} />
       </div>
       <div className="group_2">
-        <Button buttonName="7" clickHandler={handleClick} />
-        <Button buttonName="8" clickHandler={handleClick} />
-        <Button buttonName="9" clickHandler={handleClick} />
+        <Button buttonName="7" clickHandler={handleClick} color="#EFEFEF" />
+        <Button buttonName="8" clickHandler={handleClick} color="#EFEFEF" />
+        <Button buttonName="9" clickHandler={handleClick} color="#EFEFEF" />
         <Button buttonName="*" clickHandler={handleClick} />
       </div>
       <div className="group_3">
-        <Button buttonName="4" clickHandler={handleClick} />
-        <Button buttonName="5" clickHandler={handleClick} />
-        <Button buttonName="6" clickHandler={handleClick} />
+        <Button buttonName="4" clickHandler={handleClick} color="#EFEFEF" />
+        <Button buttonName="5" clickHandler={handleClick} color="#EFEFEF" />
+        <Button buttonName="6" clickHandler={handleClick} color="#EFEFEF" />
         <Button buttonName="-" clickHandler={handleClick} />
       </div>
       <div className="group_4">
-        <Button buttonName="1" clickHandler={handleClick} />
-        <Button buttonName="2" clickHandler={handleClick} />
-        <Button buttonName="3" clickHandler={handleClick} />
+        <Button buttonName="1" clickHandler={handleClick} color="#EFEFEF" />
+        <Button buttonName="2" clickHandler={handleClick} color="#EFEFEF" />
+        <Button buttonName="3" clickHandler={handleClick} color="#EFEFEF" />
         <Button buttonName="+" clickHandler={handleClick} />
       </div>
       <div className="group_5">
@@ -35,8 +35,9 @@ const ButtonPanel = (props) => {
           buttonName="0"
           className="button_zero"
           clickHandler={handleClick}
+          color="#EFEFEF"
         />
-        <Button buttonName="." clickHandler={handleClick} />
+        <Button buttonName="." clickHandler={handleClick} color="#EFEFEF" />
         <Button buttonName="=" clickHandler={handleClick} />
       </div>
     </div>
