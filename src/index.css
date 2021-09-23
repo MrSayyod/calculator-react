@@ -1,3 +1,6 @@
+/* * {
+  border: 1px solid green;
+} */
 body {
   margin: 0;
   font-family:
@@ -27,31 +30,79 @@ code {
 }
 
 #root {
+  width: 700px;
+  margin: 0 auto;
   min-height: 100vh;
+
+  /* display: flex; */
+
+  /* flex-direction: column; */
+
+  /* justify-content: center; */
+
+  /* align-items: center; */
+}
+
+ul {
+  list-style: none;
+}
+
+header nav,
+header nav .rightNav ul {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+
+.leftNav {
+  font-weight: bold;
+  font-size: large;
+  display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+.rightNav {
+  margin-right: 1rem;
+}
+
+ul li {
+  margin: 1rem;
 }
 
 .btnContainer {
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
+  display: flex;
+  flex-direction: column;
 }
 
 button {
   padding: 1rem;
   font-size: large;
   width: 5rem;
-  height: 5rem;
+  height: 100px;
   text-align: center;
 }
 
-.group_5 {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+.display {
+  background-color: gray;
+  height: 100px;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 1rem;
+  text-align: right;
 }
 
-.group_5 button:first-child {
+[class^="group"] {
+  height: 100px;
   width: 100%;
+}
+
+.otherBtn {
+  width: 25%;
+}
+
+.zeroBtn {
+  width: 50%;
 }
