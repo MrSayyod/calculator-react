@@ -27,6 +27,8 @@ code {
 }
 
 #root {
+  width: 700px;
+  margin: 0 auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,15 +37,15 @@ code {
 }
 
 .btnContainer {
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
+  display: flex;
+  flex-direction: column;
 }
 
 button {
   padding: 1rem;
   font-size: large;
   width: 5rem;
-  height: 5rem;
+  height: 100px;
   text-align: center;
 }
 
@@ -55,6 +57,10 @@ button {
   color: #fff;
   padding: 1rem;
   text-align: right;
+}
+
+[class^="group"] {
+  height: 100px;
 }
 
 .group_5 {
