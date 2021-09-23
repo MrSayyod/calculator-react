@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
+import Navbar from '../layouts/Navbar';
 
 const App = () => {
   const [total, setTotal] = useState('0');
@@ -16,10 +17,13 @@ const App = () => {
   };
 
   return (
-    <div className="displayResult">
-      <Display total={total} next={next} operation={operation} />
-      <ButtonPanel handleClick={(buttonName) => handleClick(buttonName)} />
-    </div>
+    <>
+      <Navbar />
+      <div className="displayResult">
+        <Display total={total} next={next} operation={operation} />
+        <ButtonPanel handleClick={(buttonName) => handleClick(buttonName)} />
+      </div>
+    </>
   );
 };
 

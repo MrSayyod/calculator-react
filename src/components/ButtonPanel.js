@@ -33,7 +33,7 @@ const ButtonPanel = (props) => {
       <div className="group_5">
         <Button
           buttonName="0"
-          className="button_zero"
+          wide
           clickHandler={handleClick}
           color="#EFEFEF"
         />
