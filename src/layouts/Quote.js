@@ -6,7 +6,11 @@ const Quotes = () => (
     <Navbar />
     <main>
       <section className="area_for_quotes">
-        <h4>Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. - <span>William Paul Thurston</span></h4>
+        <h4>
+          Mathematics is not about numbers, equations, computations, or
+          algorithms: it is about understanding. -
+          <span>William Paul Thurston</span>
+        </h4>
       </section>
     </main>
   </>

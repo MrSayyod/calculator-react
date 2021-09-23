@@ -1,27 +1,26 @@
 import React from 'react';
-import { BrowserRouter, Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <BrowserRouter>
+  <>
     <header>
       <nav>
         <div className="leftNav">Math Magicians</div>
         <div className="rightNav">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <a href="/">Home</a>
             </li>
             <li>
-              <Link to="/calculator">Calculator</Link>
+              <a href="/calculator">Calculator</a>
             </li>
             <li>
-              <Link to="/quotes">Quotes</Link>
+              <a href="/quotes">Quotes</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-  </BrowserRouter>
+  </>
 );
 
 export default Navbar;
