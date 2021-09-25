@@ -5,7 +5,7 @@ const Navbar = () => (
     <header>
       <nav>
         <div className="leftNav" data-testid="navbar-header-test">Math Magicians</div>
-        <div className="rightNav" data-testid='links-test'>
+        <div className="rightNav" data-testid="links-test">
           <ul>
             <li>
               <a href="/">Home</a>
