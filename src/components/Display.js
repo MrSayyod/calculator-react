@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Display = (props) => {
   const { total, next, operation } = props;
   return (
-    <div className="display">
+    <div className="display" data-testid="display-test">
       { total }
       { ' ' }
       { operation }

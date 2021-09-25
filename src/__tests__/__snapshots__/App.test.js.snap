@@ -14,7 +14,7 @@ exports[`renders correctly 1`] = `
   </nav>
 </header>
 <div class=\\"displayResult\\">
-  <div class=\\"display\\">0 </div>
+  <div class=\\"display\\" data-testid=\\"display-test\\">0 </div>
   <div class=\\"btnContainer\\">
     <div class=\\"group_1\\"><button style=\\"background: orange;\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">AC</button><button style=\\"background: orange;\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">+/-</button><button style=\\"background: orange;\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">%</button><button style=\\"background: orange;\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">/</button></div>
     <div class=\\"group_2\\"><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">7</button><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">8</button><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">9</button><button style=\\"background: orange;\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">*</button></div>
