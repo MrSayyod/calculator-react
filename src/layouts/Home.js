@@ -6,10 +6,10 @@ const Home = () => (
     <Navbar />
     <main>
       <section className="area_for_welcome">
-        <h3>Welcome to our page!</h3>
+        <h3 data-testid="home-header-test">Welcome to our page!</h3>
       </section>
       <section className="area_for_text">
-        <p>
+        <p data-testid="home-context-test">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Exercitationem, error? Totam fugit aliquid vero voluptates
           consequatur ex consequuntur quisquam. Esse aspernatur quia aut dolor
