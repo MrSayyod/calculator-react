@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+"<header>
+  <nav>
+    <div class=\\"leftNav\\" data-testid=\\"navbar-header-test\\">Math Magicians</div>
+    <div class=\\"rightNav\\" data-testid=\\"links-test\\">
+      <ul>
+        <li><a href=\\"/\\">Home</a></li>
+        <li><a href=\\"/calculator\\">Calculator</a></li>
+        <li><a href=\\"/quotes\\">Quotes</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<div class=\\"displayResult\\">
+  <div class=\\"display\\" data-testid=\\"display-test\\">0 </div>
+  <div class=\\"btnContainer\\">
+    <div class=\\"group_1\\"><button style=\\"background: orange;\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">AC</button><button style=\\"background: orange;\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">+/-</button><button style=\\"background: orange;\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">%</button><button style=\\"background: orange;\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">/</button></div>
+    <div class=\\"group_2\\"><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">7</button><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">8</button><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">9</button><button style=\\"background: orange;\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">*</button></div>
+    <div class=\\"group_3\\"><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">4</button><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">5</button><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">6</button><button style=\\"background: orange;\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">-</button></div>
+    <div class=\\"group_4\\"><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">1</button><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">2</button><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">3</button><button style=\\"background: orange;\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">+</button></div>
+    <div class=\\"group_5\\"><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"zeroBtn btn btn-primary\\">0</button><button style=\\"background: rgb(239, 239, 239);\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">.</button><button style=\\"background: orange;\\" type=\\"button\\" class=\\"otherBtn btn btn-primary\\">=</button></div>
+  </div>
+</div>"
+`;
